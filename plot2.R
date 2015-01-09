@@ -29,4 +29,4 @@ with(content, plot(datetime, Global_active_power, type="n", xlab="", ylab="Globa
 with(content, lines(datetime, Global_active_power))
 dev.off()
 
-#### PNG file created and stored at ./plot3.png
+#### PNG file created and stored at ./plot2.png
