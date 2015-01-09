@@ -30,5 +30,6 @@ with(content, lines(datetime, Sub_metering_1))
 with(content, lines(datetime, Sub_metering_2, col="red"))
 with(content, lines(datetime, Sub_metering_3, col="blue"))
 legend("topright", legend=c("Sub metering 1","Sub metering 2","Sub metering 3"), col=c("black","red","blue"), lty=c(1,1,1), lwd=c(1,1,1))
+dev.off()
 
 ### PNG created and stored at ./plot3.png
