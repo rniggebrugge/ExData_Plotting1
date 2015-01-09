@@ -28,4 +28,4 @@ par(mfrow=c(1,1))
 hist(content$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 dev.off()
 
-print("PNG file created and saved at './plot1.png'")
+###  print("PNG file created and saved at './plot1.png'")
